@@ -125,6 +125,7 @@ Instantiate the scenario with patient arrival rate and exam distribution:
 float[] exam_ratio = {0, 0.5f, 0.25f, 0.15f, 0.10f};
 StandardScene scene = new StandardScene(443, exam_ratio);
 scene.setUp();
+```
 
 Each department, machine, and exam item can be queried for scheduling and simulation logic.
 
